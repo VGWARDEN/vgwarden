@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background:url('images/bg.gif') center center fixed;
+    background-size: cover;
+}
+
+.container {
+    width: 60%; /* Adjust width as needed */
+    max-width: 40%; /* Limit maximum width */
+    margin: 20px auto; /* Center horizontally with some margin */
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: snow; /* Semi-transparent white background */
+    padding: 20px; /* Adjusted padding */
+}
+
+
+.center {
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+p {
+    margin: 5px 0;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.social {
+    margin-top: 20px;
+}
+
+.social a {
+    display: inline-block;
+    margin: 0 20px;
+    color: #333;
+    transition: transform 0.3s;
+    text-decoration: none; /* Remove default underline */
+}
+
+.social a:hover {
+    transform: scale(1.2);
+}
