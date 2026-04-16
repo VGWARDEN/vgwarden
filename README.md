@@ -52,10 +52,6 @@ I am a dedicated developer balancing academic excellence with **4+ years of tech
 
 ---
 
-### 📬 Connect With Me
-<p align="left">
-<a href="https://discord.com/users/YOUR_ID_HERE" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="Discord" height="30" width="40" /></a>
-<a href="https://instagram.com/YOUR_USERNAME" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="Instagram" height="30" width="40" /></a>
-</p>
+
 
 
