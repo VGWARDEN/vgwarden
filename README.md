@@ -58,6 +58,4 @@ I am a dedicated developer balancing academic excellence with **4+ years of tech
 <a href="https://instagram.com/YOUR_USERNAME" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="Instagram" height="30" width="40" /></a>
 </p>
 
-<p align="right">
-  <p> ![](https://komarev.com/ghpvc/?username=VGWARDEN)</p>
-</p>
+
