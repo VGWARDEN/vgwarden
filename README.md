@@ -59,5 +59,5 @@ I am a dedicated developer balancing academic excellence with **4+ years of tech
 </p>
 
 <p align="right">
-  <p> ![](https://komarev.com/ghpvc/?username=your-github-username)</p>
+  <p> ![](https://komarev.com/ghpvc/?username=VGWARDEN)</p>
 </p>
