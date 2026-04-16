@@ -59,5 +59,5 @@ I am a dedicated developer balancing academic excellence with **4+ years of tech
 </p>
 
 <p align="right">
-  <img src="https://visitcount.itsvg.in/api?id=VGWARDEN&icon=5&color=7" alt="Visitor Count" />
+  <p> ![](https://komarev.com/ghpvc/?username=your-github-username)</p>
 </p>
